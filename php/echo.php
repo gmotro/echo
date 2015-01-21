@@ -1,4 +1,5 @@
 <?php
+/*
 
 function echo()
 {
@@ -9,7 +10,7 @@ function echo()
 
 echo();
 echo('bla');
-echo('foo', 'bar', 'baz');
+echo('foo', 'bar', 'baz');*/
 
 function abc() {
 	
