@@ -5,7 +5,7 @@ override_function('echo', '', 'for($i = 0; $i < func_num_args(); $i++) {print '\
 function echo()
 {
     for($i = 0; $i < func_num_args(); $i++) {       
-		echo '\''. func_get_arg($i). '\''."</br>" ;		
+		print '\''. func_get_arg($i). '\''."</br>" ;		
     }
 }
 
